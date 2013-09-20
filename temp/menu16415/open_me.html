@@ -1,0 +1,210 @@
+
+<html>
+<head>
+   <script src="menuscript.js" language="javascript" type="text/javascript"></script>
+   <link rel="stylesheet" type="text/css" href="menustyle.css" media="screen, print" />
+   <style>
+      body {
+          background-color: #CCCCCC;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 14px;
+          padding-bottom: 100px;
+          color: #000000;
+      }
+      a#title:link, a#title:visited, a#title:hover, a#title:active  {
+          text-decoration: none;
+          color: #afdcad;
+          font-weight:bold;
+        }
+      h1 {
+         font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;;
+         font-size: 20px;
+         border: 0px solid green;
+         margin: 0px;
+         padding: 0px;
+      }
+      div#header {
+         background-color: #000000;
+         width: 80%;
+         margin: auto;
+         margin-bottom: 40px;
+         padding: 5px 0px 5px 0px;
+         text-align: center;
+         border: 0px solid green;
+      }
+      div#footer {
+         width: 80%;
+         margin: 40px auto;
+         text-align: center;
+         border: 0px solid green;
+      }
+      div.title {
+         background-color: #84b288;
+         width: 80%;
+         margin: 40px auto 2px auto;
+         padding: 5px 0px 5px 10px;
+         border: 0px solid green;
+      }
+      div.box {
+         background-color: #FFFFFF;
+         width: 80%;
+         margin: auto;
+         margin-bottom: 5px;
+         padding: 40px 5px 40px 5px;
+         border: 0px solid #999999;
+      }
+      div.boxContent{
+         width: 80%;
+         margin: auto;
+         border: 0px solid red;
+      }
+      div.boxStep {
+         width: 80%;
+         margin: auto;
+         margin-top: 60px;
+         padding-top: 5px;
+         border-top: 1px solid #999999;
+      }
+      p#caution {
+         text-align: center;
+         font-weight: bold;
+      }
+      li {
+         padding-bottom: 20px;
+      }
+      span.number{
+         font-size: 30px;
+      }
+      textarea {
+         width: 100%;
+         padding: 0px;
+         text-align: left;
+      }
+      textarea#codeHead {
+         height: 80px;
+      }
+      textarea#codeBody {
+         height: 250px;
+      }
+      form#formLoad input[type=submit] {
+         padding: 10px 30px;
+         font-weight: bold;
+         font-size: 14px;
+      }
+   </style>
+</head>
+
+<body>
+
+   <div id="header">
+      <a id="title" href="http://www.buttongenerator.com"><h1>www.ButtonGenerator.com</h1></a>
+   </div>
+
+   <div align="center" style="border: 0px solid red;">
+<table border="0" cellpadding="0" cellspacing="0"><tr><td>
+<a href="Link 1" onmouseover="setOverImg('1','');" onmouseout="setOutImg('1','');" target=""><img src="buttons/button1up.png" border="0" id="button1" vspace="5" hspace="1"></a><br>
+<a href="Link 2" onmouseover="setOverImg('2','');" onmouseout="setOutImg('2','');" target=""><img src="buttons/button2up.png" border="0" id="button2" vspace="5" hspace="1"></a><br>
+<a href="Link 3 " onmouseover="setOverImg('3','');" onmouseout="setOutImg('3','');" target=""><img src="buttons/button3up.png" border="0" id="button3" vspace="5" hspace="1"></a><br>
+<a href="Link 4" onmouseover="setOverImg('4','');" onmouseout="setOutImg('4','');" target=""><img src="buttons/button4up.png" border="0" id="button4" vspace="5" hspace="1"></a><br>
+</td></tr></table>
+
+   </div>
+      
+
+   <div class="title">
+      <h1>This menu is made of the following</h1>
+   </div>
+   <div class="box">
+      <div class="boxContent">
+         <ul>
+            <li>A <b>javascript</b> file named <b>menuscript.js</b>.<br>
+            It contains all the code to create the sub menus and mouse over effect.<br>
+            In this file you can edit the text, links and targets of the sub menus.
+            </li>
+            <li>A <b>CSS stylesheet</b> file named <b>menustyle.css</b>.<br> 
+            It is used to create the look of the sub menus. In this file you can change the colors and overall look of the sub menus.
+            </li>
+            <li><b>8 PNG images</b> files for the main menu buttons. Those files are in a folder called : <b>buttons/</b>
+            </li>
+            <li>The present HTML file called <b>open_me.html</b>, with the CODES you need to put in your web page to display the menu.
+            </li>
+         </ul>
+         <p id="caution">CAUTION if you modify the provided HTML, CSS or<br />Javascript codes your menu may not work anymore.</p>
+      </div>
+   </div>
+
+   
+   <div class="title">
+      <h1>Installation</h1>
+   </div>
+   <div class="box">
+      <div class="boxStep">
+         <b> <span class="number">1.</span> Create the button's folder, and put button images in it.</b><br><br>
+         The button's folder must be in the same directory as the web page that will display your menu. For example : <br><br>
+         If your web page is here :<br><b>http://www.mydomain.com/index.html</b><br><br>
+         Your button's folder must be here :<br /><b>http://www.mydomain.com/buttons/</b>
+      </div>
+      <div class="boxStep">
+         <b> <span class="number">2.</span> Put the menuscript.js and menustyle.css files in your web page folder.</b><br><br>
+         The <i>menuscript.js</i> and <i>menustyle.css</i> files must be in the same directory as the web page that will display your menu. For example :<br><br>
+         If your web page is here :<br><b>http://www.mydomain.com/index.html</b><br><br>
+         Your menuscript.js file must be here :<br /><b>http://www.mydomain.com/menuscript.js</b><br><br>
+         And your menustyle.css file must be here :<br /><b>http://www.mydomain.com/menustyle.css</b>
+      </div>
+      <div class="boxStep">
+               <b> <span class="number">3.</span> Insert the HTML tag for javascript and sub menus.</b><br><br>
+               This is the HTML code that calls the javascript and CSS style sheet files ( <i>menuscript.js</i> and <i>menustyle.css</i> ).
+               You must insert it in the <b>HEAD</b> part of your HTML document.<br><br>
+<textarea id="codeHead">
+<script src="menuscript.js" language="javascript" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="menustyle.css" media="screen, print" />
+</textarea>                  
+      </div>
+      <div class="boxStep">
+         <b><span class="number">4.</span> Insert the HTML tag to display the menu.</b><br><br>
+         This is the HTML code to display the menu.<br>
+         You must insert it in the <b>BODY</b> part of your HTML document.<br><br>
+         <textarea id="codeBody"><table border="0" cellpadding="0" cellspacing="0"><tr><td>
+<a href="Link 1" onmouseover="setOverImg('1','');" onmouseout="setOutImg('1','');" target=""><img src="buttons/button1up.png" border="0" id="button1" vspace="5" hspace="1"></a><br>
+<a href="Link 2" onmouseover="setOverImg('2','');" onmouseout="setOutImg('2','');" target=""><img src="buttons/button2up.png" border="0" id="button2" vspace="5" hspace="1"></a><br>
+<a href="Link 3 " onmouseover="setOverImg('3','');" onmouseout="setOutImg('3','');" target=""><img src="buttons/button3up.png" border="0" id="button3" vspace="5" hspace="1"></a><br>
+<a href="Link 4" onmouseover="setOverImg('4','');" onmouseout="setOutImg('4','');" target=""><img src="buttons/button4up.png" border="0" id="button4" vspace="5" hspace="1"></a><br>
+</td></tr></table>
+</textarea><br><br>
+         <div align="center"><b>CAUTION if you modify the provided HTML, CSS or<br />Javascript codes your menu may not work anymore.</b></div><p>
+      </div>
+   </div>
+   
+
+   <div class="title">
+      <h1>Load</h1>
+   </div>
+   <div class="box">
+      <div class="boxContent">
+         Use the following button to load back and modify your menu: <br><br>
+         <form action="http://www.buttongenerator.com/page_Load.php" method="post" id="formLoad">
+            <input type="hidden" value="a%3A2%3A%7Bs%3A4%3A%5C%22data%5C%22%3Ba%3A7%3A%7Bs%3A3%3A%5C%22job%5C%22%3Ba%3A50%3A%7Bs%3A11%3A%5C%22modeChoices%5C%22%3Bs%3A47%3A%5C%22form.php%3Fnocache%3D32581%26generator%3Dmenu%26mode%3Deasy%5C%22%3Bs%3A10%3A%5C%22background%5C%22%3Bs%3A5%3A%5C%22Light%5C%22%3Bs%3A4%3A%5C%22text%5C%22%3Bs%3A37%3A%5C%22Home%0D%0AResume%0D%0AProjects%0D%0AContact%0D%0A%0D%0A%0D%0A%5C%22%3Bs%3A5%3A%5C%22links%5C%22%3Bs%3A33%3A%5C%22Link+1%0D%0ALink+2%0D%0ALink+3+%0D%0ALink+4%0D%0A%5C%22%3Bs%3A7%3A%5C%22targets%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22butPerLine%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A11%3A%5C%22subPosition%5C%22%3Bs%3A8%3A%5C%22Vertical%5C%22%3Bs%3A20%3A%5C%22subXHorizontalOffset%5C%22%3Bs%3A2%3A%5C%22-6%5C%22%3Bs%3A20%3A%5C%22subYHorizontalOffset%5C%22%3Bs%3A2%3A%5C%2229%5C%22%3Bs%3A18%3A%5C%22subXVerticalOffset%5C%22%3Bs%3A3%3A%5C%22110%5C%22%3Bs%3A18%3A%5C%22subYVerticalOffset%5C%22%3Bs%3A1%3A%5C%227%5C%22%3Bs%3A15%3A%5C%22spacingVertical%5C%22%3Bs%3A1%3A%5C%225%5C%22%3Bs%3A17%3A%5C%22spacingHorizontal%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A15%3A%5C%22buttonVariation%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A19%3A%5C%22overButtonVariation%5C%22%3Bs%3A1%3A%5C%222%5C%22%3Bs%3A5%3A%5C%22upHue%5C%22%3Bs%3A2%3A%5C%2275%5C%22%3Bs%3A7%3A%5C%22overHue%5C%22%3Bs%3A2%3A%5C%2275%5C%22%3Bs%3A8%3A%5C%22fontFile%5C%22%3Bs%3A11%3A%5C%22arialnb.TTF%5C%22%3Bs%3A8%3A%5C%22fontSize%5C%22%3Bs%3A2%3A%5C%2212%5C%22%3Bs%3A13%3A%5C%22fontAntiAlias%5C%22%3Bs%3A2%3A%5C%22on%5C%22%3Bs%3A9%3A%5C%22textAlign%5C%22%3Bs%3A6%3A%5C%22center%5C%22%3Bs%3A12%3A%5C%22topTextColor%5C%22%3Bs%3A7%3A%5C%22%23FFFFFF%5C%22%3Bs%3A15%3A%5C%22bottomTextColor%5C%22%3Bs%3A7%3A%5C%22%23000000%5C%22%3Bs%3A17%3A%5C%22bottomTextXOffset%5C%22%3Bs%3A2%3A%5C%22-1%5C%22%3Bs%3A17%3A%5C%22bottomTextYOffset%5C%22%3Bs%3A2%3A%5C%22-1%5C%22%3Bs%3A16%3A%5C%22overTopTextColor%5C%22%3Bs%3A7%3A%5C%22%23FFFFFF%5C%22%3Bs%3A19%3A%5C%22overBottomTextColor%5C%22%3Bs%3A7%3A%5C%22%23000000%5C%22%3Bs%3A21%3A%5C%22overBottomTextXOffset%5C%22%3Bs%3A2%3A%5C%22-1%5C%22%3Bs%3A21%3A%5C%22overBottomTextYOffset%5C%22%3Bs%3A2%3A%5C%22-1%5C%22%3Bs%3A8%3A%5C%22subWidth%5C%22%3Bs%3A3%3A%5C%22125%5C%22%3Bs%3A14%3A%5C%22subBorderWidth%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A14%3A%5C%22subBorderColor%5C%22%3Bs%3A7%3A%5C%22%23404040%5C%22%3Bs%3A13%3A%5C%22subTextFamily%5C%22%3Bs%3A5%3A%5C%22Arial%5C%22%3Bs%3A11%3A%5C%22subTextSize%5C%22%3Bs%3A2%3A%5C%2211%5C%22%3Bs%3A12%3A%5C%22subTextAlign%5C%22%3Bs%3A6%3A%5C%22center%5C%22%3Bs%3A14%3A%5C%22subTextUpColor%5C%22%3Bs%3A7%3A%5C%22%23FFFFFF%5C%22%3Bs%3A16%3A%5C%22subTextOverColor%5C%22%3Bs%3A7%3A%5C%22%23000000%5C%22%3Bs%3A14%3A%5C%22subTextPadding%5C%22%3Bs%3A1%3A%5C%222%5C%22%3Bs%3A13%3A%5C%22subTextWeight%5C%22%3Bs%3A6%3A%5C%22normal%5C%22%3Bs%3A17%3A%5C%22subTextDecoration%5C%22%3Bs%3A4%3A%5C%22none%5C%22%3Bs%3A16%3A%5C%22subButtonUpColor%5C%22%3Bs%3A7%3A%5C%22%235C0FAF%5C%22%3Bs%3A18%3A%5C%22subButtonOverColor%5C%22%3Bs%3A7%3A%5C%22%23E1BFFF%5C%22%3Bs%3A16%3A%5C%22subButtonPadding%5C%22%3Bs%3A1%3A%5C%222%5C%22%3Bs%3A18%3A%5C%22subBackgroundColor%5C%22%3Bs%3A7%3A%5C%22%23D4D4D4%5C%22%3Bs%3A10%3A%5C%22buttonName%5C%22%3Bs%3A6%3A%5C%22Cosmic%5C%22%3Bs%3A13%3A%5C%22menuVariation%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A4%3A%5C%22mode%5C%22%3Bs%3A4%3A%5C%22menu%5C%22%3Bs%3A1%3A%5C%22x%5C%22%3Bs%3A3%3A%5C%22282%5C%22%3Bs%3A1%3A%5C%22y%5C%22%3Bs%3A2%3A%5C%2224%5C%22%3Bs%3A9%3A%5C%22sameWidth%5C%22%3Bs%3A3%3A%5C%22off%5C%22%3B%7Ds%3A4%3A%5C%22mode%5C%22%3Bs%3A4%3A%5C%22easy%5C%22%3Bs%3A6%3A%5C%22layout%5C%22%3Bs%3A8%3A%5C%22vertical%5C%22%3Bs%3A9%3A%5C%22generator%5C%22%3Bs%3A4%3A%5C%22menu%5C%22%3Bs%3A10%3A%5C%22buttonName%5C%22%3Bs%3A6%3A%5C%22Cosmic%5C%22%3Bs%3A10%3A%5C%22background%5C%22%3Bs%3A5%3A%5C%22Light%5C%22%3Bs%3A13%3A%5C%22menuVariation%5C%22%3Bs%3A1%3A%5C%221%5C%22%3B%7Ds%3A5%3A%5C%22check%5C%22%3Bs%3A32%3A%5C%220cec55b4fedeab60961fd11ae728de72%5C%22%3B%7D" name="load" />
+            <input type="submit" value="Click Here to Load Back Your Menu" />
+         </form>
+      </div>
+   </div>
+
+   <div class="title">
+      <h1>Link Back</h1>
+   </div>
+   <div class="box">
+      <div class="boxContent">
+         If you use this menu, <b>YOU MUST PUT A LINK BACK</b> to ButtonGenerator.com.<br>
+         <a href="http://www.buttongenerator.com/page_LinkBack.php" target="_blank">Click here for more details about link back.</a><br><br>
+         If you don't want to link back, you can <a href="http://www.buttongenerator.com/signup.php">sign-up to the members area</a>.<br><br>
+      </div>
+   </div>
+
+   <div id="footer">
+      All buttons and menus are <b>COPYRIGHT</b> &copy; 2013 <a href="http://www.buttongenerator.com">ButtonGenerator.com</a> All rights reserved.<br>
+      You cannot offer the buttons on your <b>clipart or template</b> site.<br>
+      You cannot <b>resell</b> the buttons.<br><br>
+   </div>   
+
+</body>
+</html>
